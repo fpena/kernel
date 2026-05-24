@@ -1,0 +1,13 @@
+Skills are organized into bucket folders under `skills/`:
+
+- `documentation/` — writing, editing, and long-form content
+- `productivity/` — workflow and setup tools
+- `engineering/` — daily code work (future)
+- `in-progress/` — drafts not yet ready to ship
+- `deprecated/` — no longer used
+
+Every skill in `documentation/`, `productivity/`, or `engineering/` must have a reference in the top-level `README.md` and an entry in `.claude-plugin/plugin.json`. Skills in `in-progress/` and `deprecated/` must not appear in either.
+
+Each skill entry in the top-level `README.md` must link the skill name to its `SKILL.md`.
+
+Each bucket folder has a `README.md` that lists every skill in the bucket with a one-line description, with the skill name linked to its `SKILL.md`.

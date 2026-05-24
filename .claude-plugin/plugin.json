@@ -1,0 +1,7 @@
+{
+  "name": "kernel-skills",
+  "skills": [
+    "./skills/documentation/document-polish",
+    "./skills/productivity/setup-kernel-skills"
+  ]
+}
